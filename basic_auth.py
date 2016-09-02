@@ -68,7 +68,7 @@ def main(argv):
     app.config['PASSWORD']=password
 
 def printHelp():
-    print('flaskapp.py -u <user name> -p <password>')
+    print('Usage: ',__file__,'-u <user name> -p <password>')
     
 if __name__ == '__main__':
     main(sys.argv[1:])
